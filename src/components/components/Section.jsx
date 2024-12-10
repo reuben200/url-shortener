@@ -12,7 +12,7 @@ const Section = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:3000/shorten', {
+      const response = await fetch('https://url-shortener-server-j9qa.onrender.com/shorten', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
